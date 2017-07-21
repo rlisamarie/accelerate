@@ -1,0 +1,120 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+ adding a new test note here.
+*/
+@import url("../accelerate-theme/style.css");
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+.button {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+/* featured-work section */
+
+.featured-work ul {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  overflow:auto;
+  margin:0;
+  width: auto;
+}
+
+.individual-featured-work h3 {
+  padding-bottom: 2%;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1%;
+  font-size: 1em;
+}
+.featured-work h4 {
+  text-align:center;
+  Padding-bottom: 2%;
+  line-height:1em;
+  text-transform: uppercase;
+}
+.homepage-featured-work {
+  list-style: none;
+}
+
+
+/* blog-post section */
+
+.blog-post {
+	width: 50%;
+}
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+.blog-post h2 {
+	font-size: 1.5em;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post .read-more-link {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*Case Studies */
+
+.case-study{
+     display: -webkit-flex;
+     display: flex;
+     -webkit-flex-direction: row;
+     flex-direction: row;
+   }
+
+.case-study-sidebar h2{
+  padding: 0;
+}
+
+.case-study-sidebar{
+  width: 340px;
+}
+
+.case-study-sidebar h5{
+	color: #86898b;
+	font-weight:normal;
+	font-size: 13px;
+  padding-bottom: 5%;
+}
+
+.case-study-sidebar p{
+	font-size: 12px;
+}
+
+.case-study-images{
+  margin-top: 40px;
+  margin-left: 40px;
+}
